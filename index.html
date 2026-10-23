@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zannatun Nur - CSE student, Software QA Engineer in the making and ML researcher. IEEE-published. Test design, defect reporting, data science.">
+  <title>Zannatun Nur | SQA &amp; Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Zannatun<span>.</span>Nur</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#sqa" class="nav-link">SQA Lab</a>
+        <a href="#research" class="nav-link">Research</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="badge"><span class="pulse"></span> Open to entry-level Software QA roles</div>
+        <h1>Hi, I'm <span class="grad">Zannatun Nur</span></h1>
+        <h2 class="typed-line"><span id="typed"></span><span class="caret">|</span></h2>
+        <p class="hero-text">CSE student at AIUB who breaks software to make it better and builds ML models to learn from data. I design test cases, hunt defects, and publish research, with work in <strong>IEEE Xplore</strong>.</p>
+        <div class="hero-buttons">
+          <a href="#sqa" class="btn btn-primary">See My SQA Work <i class="fas fa-bug"></i></a>
+          <a href="#research" class="btn btn-outline">Read My Research <i class="fas fa-flask"></i></a>
+        </div>
+        <div class="stats">
+          <div class="stat"><span class="stat-num" data-count="3">0</span><span class="stat-label">Research Papers</span></div>
+          <div class="stat"><span class="stat-num" data-count="3">0</span><span class="stat-label">Major Projects</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-wrap">
+          <div class="photo-ring"></div>
+          <img src="images/Media.jpg" alt="Zannatun Nur (demo photo, replace with your own)">
+          <div class="float-chip chip-1"><i class="fas fa-check-circle"></i> Test Passed</div>
+          <div class="float-chip chip-2"><i class="fas fa-bug"></i> Bug Found</div>
+          <div class="float-chip chip-3"><i class="fas fa-book-open"></i> IEEE Xplore</div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll down"><i class="fas fa-chevron-down"></i></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag">Who I Am</span>
+        <h2>Quality <span class="grad">meets</span> Curiosity</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I'm a <strong>Computer Science and Engineering</strong> student at <strong>American International University-Bangladesh</strong>, entering my final semester with a major in <strong>Information Systems</strong> (SQAT, Data Science, Machine Learning, MIS).</p>
+          <p>I have a solid grasp of the <strong>SDLC and STLC</strong>, test case design, and defect reporting. I like asking "what could go wrong?" and then proving it with evidence: clear steps, expected vs. actual results, and reproducible bugs.</p>
+          <p>Alongside QA, I do <strong>applied ML research</strong> across fraud detection, drug solubility, NLP and scheduling optimisation, and have presented in Dhaka and Abu Dhabi.</p>
+          <div class="goal-card">
+            <i class="fas fa-bullseye"></i>
+            <div><h4>Goal</h4><p>An entry-level Software QA Engineer role, helping teams ship reliable, high-quality software.</p></div>
+          </div>
+        </div>
+        <div class="about-side reveal">
+          <div class="timeline">
+            <div class="tl-item">
+              <span class="tl-dot"></span>
+              <h4>B.Sc. in CSE</h4>
+              <p>AIUB, Dhaka &middot; 2023 - Present</p>
+              <small>CGPA 3.56 / 4.00</small>
+            </div>
+            <div class="tl-item">
+              <span class="tl-dot"></span>
+              <h4>HSC (Science)</h4>
+              <p>Govt. Azizul Haque College, Bogura</p>
+              <small>GPA 5.00 / 5.00</small>
+            </div>
+            <div class="tl-item">
+              <span class="tl-dot"></span>
+              <h4>SSC (Science)</h4>
+              <p>Bogura Govt. Girls' High School</p>
+              <small>GPA 5.00 / 5.00</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag">Toolkit</span>
+        <h2>Skills &amp; <span class="grad">Technologies</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h3><i class="fas fa-bug"></i> Software Quality &amp; Testing</h3>
+          <div class="chips"><span>SDLC &amp; STLC</span><span>Test Planning</span><span>Test Case Design</span><span>Functional Testing</span><span>Black-box</span><span>White-box</span><span>Regression Testing</span><span>Defect Reporting</span><span>Test Documentation</span></div>
+        </div>
+        <div class="skill-card reveal">
+          <h3><i class="fas fa-code"></i> Programming</h3>
+          <div class="chips"><span>Python</span><span>C++</span><span>JavaScript</span><span>PHP</span><span>HTML</span><span>CSS</span></div>
+        </div>
+        <div class="skill-card reveal">
+          <h3><i class="fas fa-database"></i> Databases</h3>
+          <div class="chips"><span>SQL</span><span>MySQL</span><span>Oracle</span></div>
+        </div>
+        <div class="skill-card reveal">
+          <h3><i class="fas fa-chart-line"></i> Data &amp; ML Tools</h3>
+          <div class="chips"><span>Pandas</span><span>NumPy</span><span>scikit-learn</span><span>Streamlit</span><span>MS Excel</span><span>Microsoft Office</span></div>
+        </div>
+        <div class="skill-card wide reveal">
+          <h3><i class="fas fa-handshake"></i> Professional Skills</h3>
+          <div class="chips"><span>Attention to Detail</span><span>Analytical Thinking</span><span>Written Communication</span><span>Verbal Communication</span><span>Teamwork</span><span>Meeting Deadlines</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SQA LAB -->
+  <section id="sqa" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag">Quality Assurance</span>
+        <h2>My <span class="grad">SQA Lab</span></h2>
+        <p class="sub">How I test: from planning to a reproducible bug report.</p>
+      </div>
+
+      <!-- Process -->
+      <div class="process reveal">
+        <div class="step"><i class="fas fa-clipboard-list"></i><h4>Plan</h4><p>Scope, risks, test types</p></div>
+        <div class="step-arrow"><i class="fas fa-arrow-right"></i></div>
+        <div class="step"><i class="fas fa-pen-ruler"></i><h4>Design</h4><p>Test cases &amp; data</p></div>
+        <div class="step-arrow"><i class="fas fa-arrow-right"></i></div>
+        <div class="step"><i class="fas fa-play"></i><h4>Execute</h4><p>Run &amp; observe</p></div>
+        <div class="step-arrow"><i class="fas fa-arrow-right"></i></div>
+        <div class="step"><i class="fas fa-bug"></i><h4>Report</h4><p>Log defects clearly</p></div>
+        <div class="step-arrow"><i class="fas fa-arrow-right"></i></div>
+        <div class="step"><i class="fas fa-rotate"></i><h4>Retest</h4><p>Verify &amp; regress</p></div>
+      </div>
+
+      <!-- Testing types -->
+      <div class="test-types reveal">
+        <div class="tt"><i class="fas fa-list-check"></i><h4>Functional</h4><p>Auth, cart, checkout, orders, returns</p></div>
+        <div class="tt"><i class="fas fa-shield-halved"></i><h4>Validation</h4><p>Input rules, boundaries, edge cases</p></div>
+        <div class="tt"><i class="fas fa-diagram-project"></i><h4>Integration</h4><p>Modules and AJAX operations together</p></div>
+        <div class="tt"><i class="fas fa-database"></i><h4>Database</h4><p>Data consistency &amp; role-based access</p></div>
+      </div>
+
+      <!-- Samples -->
+      <div class="sqa-grid">
+        <div class="panel reveal">
+          <div class="panel-head">
+            <h3><i class="fas fa-table-list"></i> Sample Test Cases</h3>
+            <div class="tabs" id="tcTabs">
+              <button class="tab active" data-tab="auth">Auth</button>
+              <button class="tab" data-tab="cart">Cart</button>
+              <button class="tab" data-tab="order">Orders</button>
+            </div>
+          </div>
+          <p class="note">Illustrative format, based on the modules I tested in the Grocery Delivery System.</p>
+          <div class="table-wrap">
+            <table class="tc-table">
+              <thead><tr><th>ID</th><th>Scenario</th><th>Steps</th><th>Expected</th><th>Type</th></tr></thead>
+              <tbody id="tcBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="panel reveal">
+          <div class="panel-head"><h3><i class="fas fa-bug"></i> Sample Bug Report</h3><span class="sev">Severity: Medium</span></div>
+          <p class="note">Format I follow when reporting defects. Replace with a real one from your testing.</p>
+          <div class="bug">
+            <div class="bug-row"><b>Bug ID</b><span>BUG-024</span></div>
+            <div class="bug-row"><b>Title</b><span>Cart total does not update after removing an item</span></div>
+            <div class="bug-row"><b>Module</b><span>Cart / AJAX</span></div>
+            <div class="bug-row"><b>Environment</b><span>Chrome, localhost (XAMPP), MySQL</span></div>
+            <div class="bug-row col"><b>Steps to Reproduce</b>
+              <ol><li>Log in as a customer</li><li>Add two products to the cart</li><li>Click "Remove" on one product</li></ol>
+            </div>
+            <div class="bug-row"><b>Expected</b><span>Total recalculates immediately</span></div>
+            <div class="bug-row"><b>Actual</b><span>Item disappears; total stays unchanged until refresh</span></div>
+            <div class="bug-row"><b>Status</b><span class="status open">Open</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured QA project -->
+      <div class="qa-feature reveal">
+        <div class="qa-feature-text">
+          <span class="mini-tag">Featured QA Project</span>
+          <h3>E-Commerce Grocery Delivery Management System</h3>
+          <p>Designed and executed functional test cases across authentication, product management, cart, checkout, order processing, inventory, returns and delivery workflows for multiple user roles. Performed functional, validation, integration and database testing, verifying AJAX operations, role-based access, data consistency and edge cases.</p>
+          <div class="chips"><span>PHP</span><span>MySQL</span><span>JavaScript</span><span>AJAX</span><span>MVC</span></div>
+        </div>
+        <div class="qa-metrics">
+          <div><i class="fas fa-users"></i><b>Multi-role</b><small>Customer, Admin, Delivery</small></div>
+          <div><i class="fas fa-layer-group"></i><b>8 workflows</b><small>Auth to delivery</small></div>
+          <div><i class="fas fa-vial"></i><b>4 test types</b><small>Func, Valid, Integ, DB</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="section alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag">Research</span>
+        <h2>Publications &amp; <span class="grad">Presentations</span></h2>
+        <p class="sub">Applied machine learning across health, finance and optimisation.</p>
+      </div>
+
+      <div class="research-grid">
+        <article class="paper reveal">
+          <div class="paper-top"><span class="venue"><i class="fas fa-location-dot"></i> IEEE BECITHCON 2026 &middot; Dhaka</span><span class="date">Sep 2026</span></div>
+          <h3>Scaffold-Aware Drug Solubility Classification: Quantifying Generalization Gaps in Machine Learning Models with SMOTE and Extended Molecular Fingerprints on AqSolDB</h3>
+          <div class="chips"><span>Machine Learning</span><span>SMOTE</span><span>Molecular Fingerprints</span><span>Cheminformatics</span></div>
+          <div class="paper-foot"><span class="role">Co-author</span><span class="status-pill">Presented</span></div>
+        </article>
+
+        <article class="paper reveal">
+          <div class="paper-top"><span class="venue"><i class="fas fa-location-dot"></i> ICASF 2025 &middot; Abu Dhabi University, UAE</span><span class="date">Dec 2025</span></div>
+          <h3>Real-Time Fusion of Behavioral and Transactional Data for Fraud Detection</h3>
+          <div class="chips"><span>Fraud Detection</span><span>Data Fusion</span><span>Real-Time ML</span></div>
+          <div class="paper-foot"><span class="role">Presenter</span><span class="status-pill">Presented</span></div>
+        </article>
+
+        <article class="paper reveal">
+          <div class="paper-top"><span class="venue"><i class="fas fa-location-dot"></i> IEEE Xplore &middot; 2025</span><span class="date">2025</span></div>
+          <h3>Optimizing Surgery Room Scheduling with Comparative Metaheuristic Algorithms</h3>
+          <div class="chips"><span>Metaheuristics</span><span>Scheduling</span><span>Optimisation</span></div>
+          <div class="paper-foot"><span class="role">Co-author</span>
+            <a class="doi" href="https://doi.org/10.1109/RAAICON69033.2025.11502411" target="_blank" rel="noopener">DOI: 10.1109/RAAICON69033.2025.11502411 <i class="fas fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="cert-row reveal">
+        <div class="cert"><i class="fas fa-award"></i><div><h4>Certificate of Presentation</h4><p>IEEE BECITHCON 2026, IUBAT, Dhaka &middot; Sep 2026</p></div></div>
+        <div class="cert"><i class="fas fa-medal"></i><div><h4>Certificate of Appreciation</h4><p>ICASF 2025, Abu Dhabi University, UAE &middot; Dec 2025</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag">Portfolio</span>
+        <h2>Featured <span class="grad">Projects</span></h2>
+      </div>
+      <div class="filters reveal" id="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="qa">QA &amp; Testing</button>
+        <button class="filter" data-filter="ml">ML / Research</button>
+        <button class="filter" data-filter="dev">Development</button>
+      </div>
+      <div class="projects-grid">
+        <div class="project reveal" data-cat="qa dev">
+          <div class="project-thumb t1"><i class="fas fa-cart-shopping"></i><span class="ribbon">QA</span></div>
+          <div class="project-body">
+            <h3>Grocery Delivery Management System</h3>
+            <p>Multi-role e-commerce platform, tested end to end: authentication, cart, checkout, orders, inventory, returns and delivery.</p>
+            <div class="chips"><span>PHP</span><span>MySQL</span><span>AJAX</span><span>MVC</span></div>
+            <a href="#sqa" class="plink">View test approach <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="project reveal" data-cat="dev">
+          <div class="project-thumb t2"><i class="fas fa-hospital"></i><span class="ribbon">Dev</span></div>
+          <div class="project-body">
+            <h3>Hospital Appointment Booking System</h3>
+            <p>Built the Admin Module with full CRUD for doctors, specializations, patients and appointments, plus server-side validation, RBAC, session auth and prepared SQL statements. AJAX live search speeds up record lookup.</p>
+            <div class="chips"><span>PHP</span><span>JavaScript</span><span>MySQL</span><span>RBAC</span></div>
+            <a href="#contact" class="plink">Ask for details <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="project reveal" data-cat="ml">
+          <div class="project-thumb t3"><i class="fas fa-envelope-open-text"></i><span class="ribbon">ML</span></div>
+          <div class="project-body">
+            <h3>SMS Spam Detection with ML</h3>
+            <p>NLP spam classifier using text preprocessing and TF-IDF. Compared several ML and ensemble models and deployed the best Voting Classifier as a Streamlit app. Research paper in preparation for conference submission.</p>
+            <div class="chips"><span>Python</span><span>scikit-learn</span><span>TF-IDF</span><span>Streamlit</span></div>
+            <a href="#research" class="plink">See research <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag">Get In Touch</span>
+        <h2>Let's Make Software <span class="grad">More Reliable</span></h2>
+        <p class="sub">Looking for an entry-level Software QA Engineer role? Let's talk.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <a class="c-item" href="mailto:nurzannatun0@gmail.com"><i class="fas fa-envelope"></i><div><h4>Email</h4><p>nurzannatun0@gmail.com</p></div></a>
+          <a class="c-item" href="tel:+8801764196969"><i class="fas fa-phone"></i><div><h4>Phone</h4><p>+880 1764-196969</p></div></a>
+          <a class="c-item" href="https://www.linkedin.com/in/zannatun-nur" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i><div><h4>LinkedIn</h4><p>linkedin.com/in/zannatun-nur</p></div></a>
+          <a class="c-item" href="https://github.com/zannatun16" target="_blank" rel="noopener"><i class="fab fa-github"></i><div><h4>GitHub</h4><p>github.com/zannatun16</p></div></a>
+          <div class="c-item"><i class="fas fa-location-dot"></i><div><h4>Location</h4><p>Dhaka, Bangladesh</p></div></div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <h3>Send a message</h3>
+          <input type="text" id="fName" placeholder="Your name" required>
+          <input type="email" id="fEmail" placeholder="Your email" required>
+          <textarea id="fMsg" rows="5" placeholder="How can I help?" required></textarea>
+          <button type="submit" class="btn btn-primary">Open in Email App <i class="fas fa-paper-plane"></i></button>
+          <small>This opens your email app with the message pre-filled (no server needed).</small>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Zannatun Nur. All rights reserved.</p>
+      <div class="social">
+        <a href="https://github.com/zannatun16" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/zannatun-nur" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:nurzannatun0@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
